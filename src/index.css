@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lato&family=Lexend+Deca:wght@100..900&family=Montserrat+Alternates&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans&family=Outfit&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Unbounded:wght@200..900&display=swap');
+@import "tailwindcss";
+
+.logo-font {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+* {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.custom-list {
+  overflow-x: visible !important;
+  list-style-type: disc;
+  padding-left: 1.25rem; /* This ensures the bullets are visible */
+}
