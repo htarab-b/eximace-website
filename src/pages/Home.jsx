@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import Home_Image from '../assets/Home.jpeg'
+import Home_Image from '../assets/home.jpeg'
 
 function Home() {
   return (
