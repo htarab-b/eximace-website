@@ -20,7 +20,7 @@ function Services() {
           initial = {{ x:100, opacity:0 }}
           whileInView = {{ x:0, opacity:1 }}
           transition = {{ duration:0.6, delay:0.2}}
-        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure quos accusantium aliquam neque odit magnam officia officiis assumenda nesciunt labore, placeat, minima adipisci modi dolore totam facilis quo distinctio.</motion.p>
+        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">Our team of dedicated experts guarantees consistent efficiency in managing your airfreight cargo, offering the best solutions to meet your specific shipment needs. Our extensive range of services is tailored to meet and exceed your expectations.</motion.p>
       </div>
 
       <div className="flex pl-6 sm:px-32 gap-3 sm:gap-6 py-3 sm:py-2">
@@ -33,7 +33,7 @@ function Services() {
           initial = {{ x:100, opacity:0 }}
           whileInView = {{ x:0, opacity:1 }}
           transition = {{ duration:0.6, delay:0.2}}
-        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure quos accusantium aliquam neque odit magnam officia officiis assumenda nesciunt labore, placeat, minima adipisci modi dolore totam facilis quo distinctio.</motion.p>
+        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">Our team is equipped with the knowledge and experience to ensure your freight moves efficiently. We offer Full Container Load (FCL) and Less-Than-Container Load (LCL) options to suit your supply chain needs, regardless of cargo size. With a network of carriers and key trade routes, we're ready to provide comprehensive support for your business.</motion.p>
       </div>
 
       <div className="flex pl-6 sm:px-32 gap-3 sm:gap-6 py-3 sm:py-2">
@@ -46,7 +46,7 @@ function Services() {
           initial = {{ x:100, opacity:0 }}
           whileInView = {{ x:0, opacity:1 }}
           transition = {{ duration:0.6, delay:0.2}}
-        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure quos accusantium aliquam neque odit magnam officia officiis assumenda nesciunt labore, placeat, minima adipisci modi dolore totam facilis quo distinctio.</motion.p>
+        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">The global market is full of opportunities, and as experts in Customs Brokerage and Clearance, We take care of the complexities while staying ahead of regulatory changes in global trade. We provide a variety of import and export customs services, customized to meet your specific needs.</motion.p>
       </div>
 
       <div className="flex pl-6 sm:px-32 gap-3 sm:gap-6 py-3 sm:py-2">
@@ -59,10 +59,10 @@ function Services() {
           initial = {{ x:100, opacity:0 }}
           whileInView = {{ x:0, opacity:1 }}
           transition = {{ duration:0.6, delay:0.2}}
-        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure quos accusantium aliquam neque odit magnam officia officiis assumenda nesciunt labore, placeat, minima adipisci modi dolore totam facilis quo distinctio.</motion.p>
+        className="w-3/5 sm:w-3/5 flex items-center justify-center text-xs sm:text-lg lg:text-xl text-justify pr-6 sm:pr-0">We provide domestic cargo services via Road and Rail at competitive prices. With extensive experience in industry-specific logistics solutions, we specialize in both train and road transportation.</motion.p>
       </div>
 
-      <div className="w-screen flex flex-wrap px-6 sm:px-32 gap-3 sm:gap-6 py-3 sm:py-2">
+      <div className="w-screen flex items-center justify-center flex-wrap px-6 sm:px-16 gap-3 sm:gap-6 py-3 sm:py-2">
         <motion.h3 
           initial = {{ x:-100, opacity:0 }}
           whileInView = {{ x:0, opacity:1 }}

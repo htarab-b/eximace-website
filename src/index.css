@@ -16,11 +16,12 @@ html, body {
   font-variation-settings:
     "wdth" 100,
     "YTLC" 500;
+
+  overflow-x: hidden;
 }
 
 * {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 .custom-list {

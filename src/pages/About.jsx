@@ -9,7 +9,7 @@ function About() {
         initial = {{ opacity:0 }}
         whileInView = {{ opacity:1 }}
         transition = {{ duration:0.5, delay:0}}
-      className="text-4xl sm:text-5xl lg:text-6xl text-center"><span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">About Us</span></motion.h1>
+      className="text-center"><span className="text-4xl sm:text-5xl lg:text-6xl bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">About Us</span></motion.h1>
       <div className='w-screen lg:flex lg:items-center justify-center lg:px-10 lg:mt-5'>
         <div className="hidden lg:flex w-1/2">
             <img src={About_Image} className="w-full h-96 object-cover object-center" />
@@ -24,7 +24,7 @@ function About() {
                 initial = {{ x:100, opacity:0 }}
                 whileInView = {{ x:0, opacity:1 }}
                 transition = {{ duration:0.8, delay:0}}
-            className="text-sm sm:text-lg px-6 py-3 sm:pl-16 lg:pl-10 text-justify">With a well- integrated network offices & service centers globally Eximace Logistics have been specializing in supplying the most satisfied ocean freight, Air freight, Customs Brokerage land transportation and all of other logistics services throughout the world with our fully qualified Team through efficient operations and global Presence</motion.p>
+            className="text-sm sm:text-lg px-6 py-3 sm:pl-16 lg:pl-10 text-justify">With a well- integrated network offices & service centers globally Eximace Logistics have been specializing in supplying the most satisfied ocean freight, Air freight, Customs Brokerage land transportation and all of other logistics services throughout the world with our fully qualified Team through efficient operations and global Presence</motion.p>
             <motion.p 
                 initial = {{ x:100, opacity:0 }}
                 whileInView = {{ x:0, opacity:1 }}
