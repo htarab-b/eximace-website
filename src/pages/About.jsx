@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import About_Image from '../assets/about.jpg'
+import About_Image from '../assets/about.png'
 
 function About() {
   return (
@@ -11,8 +11,8 @@ function About() {
         transition = {{ duration:0.5, delay:0}}
       className="text-center"><span className="text-4xl sm:text-5xl lg:text-6xl bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">About Us</span></motion.h1>
       <div className='w-screen lg:flex lg:items-center justify-center lg:px-10 lg:mt-5'>
-        <div className="hidden lg:flex w-1/2">
-            <img src={About_Image} className="w-full h-96 object-cover object-center" />
+        <div className="hidden lg:flex w-1/2 h-[90vh] items-center justify-center pb-10">
+            <img src={About_Image} className="object-cover object-top" />
         </div>
         <div className="lg:w-1/2">
             <motion.p 
