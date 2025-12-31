@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import Logo from '../assets/logo.png';
+
 function Header() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -47,6 +49,11 @@ function Header() {
   return (
     <nav className="fixed min-w-full bg-gray-300 shadow dark:bg-gray-900 text-sm sm:text-lg z-50 justify-center flex items-center">
       <div className="container flex items-center justify-center py-3 lg:py-5 mx-auto text-gray-700 capitalize dark:text-gray-200">
+        <div className="flex items-center mr-2 lg:mr-6">
+          <a href="#Home">
+            <img src={Logo} alt="Eximace Logo" className="h-10 w-auto" style={{maxHeight: '40px'}} />
+          </a>
+        </div>
         <a
           href="#Home"
           className={linkClasses('Home')}
