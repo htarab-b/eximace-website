@@ -18,16 +18,19 @@ function Contact() {
                             </div>
                         </div>
                         <div className="mt-4 max-w-xs text-gray-500 text-sm">
-                            <strong>Registered Office Address:</strong><br />
+                            <strong>Registered Office:</strong><br />
+                            Eximace Logistics Pvt Ltd<br />
                             77/1, 5th Cross, Nanjappa Layout, Vidyaranyapura,<br />
                             Bangalore – 560097.<br /><br />
-                            <strong>Branch Office Address:</strong><br />
+                            <strong>Corporate Office:</strong><br />
+                            Eximace Logistics Pvt Ltd<br />
                             4th Floor, No. 10C,<br />
                             Gaduniya Complex, Ramaiah Layout,<br />
                             Ramachandrapura Main Road,<br />
                             Vidyaranyapura,<br />
                             Bangalore – 560097.<br /><br />
-                            <strong>Phone Number:</strong> 9845204165
+                            <strong>Phone:</strong> 9845204165<br />
+                            <strong>Email ID:</strong> sv@eximacelogistics.com
                         </div>
                     </div>
                 </div>

@@ -1,16 +1,20 @@
 import React, { useRef, useEffect } from "react";
 
 const clients = [
-    "Indo-Mim Ltd",
-    "Chakradhara Aerospace and Cargo Private Limited",
-    "Roots Industries",
-    "Aeropact Precision Machining Private Limited",
-    "Hampson Industries Private Limited",
-    "Amphenol Interconnect India Private ltd",
-    "RK POLYMER Industries PVT LTD",
-    "GOULD ALLOYS LTD - UK",
-    "SAN AEROSPACE INDIA PRIVATE LIMITED",
-    "JRVD Defspace Technologies Pvt Ltd"
+    "Indo-Mim Ltd, Bangalore",
+    "Chakradhara Aerospace and Cargo Private Limited, Coimbatore",
+    "Roots Industries, Coimbatore",
+    "Aeropact Precision Machining Private Limited, Coimbatore",
+    "Hampson Industries Private Limited, Bangalore",
+    "Amphenol Interconnect India Private Limited, Bangalore",
+    "RK Polymer Industries Pvt Ltd, Pune",
+    "Gould Alloys Ltd – UK",
+    "San Aerospace India Private Limited, Faridabad",
+    "JRVD Defspace Technologies Pvt Ltd, Bangalore",
+    "Aveva Drug Delivery Systems, USA",
+    "JBI Aerospace, USA",
+    "Nucon Aerospace Private Limited, Telangana",
+    "DifGen Pharmaceuticals Pvt Ltd, Telangana"
 ];
 
 export default function ClientCarousel() {
