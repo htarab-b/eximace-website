@@ -55,7 +55,7 @@ function Home() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-5xl mb-4 lg:text-7xl text-center logo-font"
         >
-          <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent leading-8">Eximace Logistics</span>
+          <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent leading-8">Eximace Logistics Pvt Ltd</span>
         </motion.h1>
         <motion.p
           initial={{ y: 100, opacity: 0 }}

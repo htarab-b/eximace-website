@@ -13,7 +13,7 @@ function Contact() {
                             <img src={Logo} alt="Eximace Logo" className="h-14 w-auto" style={{maxHeight: '48px'}} />
                             <div className="pt-2 ml-3">
                                 <div className="text-xl lg:text-2xl text-left logo-font">
-                                    <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent leading-8">Eximace Logistics</span>
+                                    <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent leading-8">Eximace Logistics Pvt Ltd</span>
                                 </div>
                             </div>
                         </div>
